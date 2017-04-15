@@ -27,9 +27,10 @@
 
   <body>
   	<%= render 'layouts/navigation' %>
-
+    <%= render 'layouts/alert' %>
+    <div class="body-img">
     	<%= yield %>
-    	
-    <%= render 'layouts/navigation' %>
+    </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
